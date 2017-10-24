@@ -1,0 +1,38 @@
+.app
+  text-align: center
+  font-family: Lato, sans-serif
+  .search-bar
+    padding-bottom: 50px
+    font-size: 25px
+    width: 900px
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    a
+      color: white
+      cursor: pointer
+  .search-bar *:not(:first-child)
+    margin-left: 10px
+  .content-bars
+    display: none
+    margin-top: 110px
+    *
+      background-color: #d6d6d6
+      padding: 10px 0px
+      margin: 0px 50px
+    #title
+      font-weight: bold
+    span
+      margin: 0px
+      padding: 0px
+      font-weight: bold
+    .bar
+      font-size: 18px
+      &:hover
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        transition: box-shadow 0.3s ease-in-out
+  a
+    text-decoration: none
+    color: black
+    
